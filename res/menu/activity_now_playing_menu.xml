@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/it_home" android:title="Home"></item>
+    <item android:id="@+id/it_all_song" android:title="List all songs"></item>
+    <item android:id="@+id/it_list_song_group_by_artist" android:title="List songs group by artist"></item>
+    <item android:id="@+id/it_list_song_group_by_album" android:title="List songs group by album"></item>
+    <item android:id="@+id/it_list_playlist" android:title="List playlists"></item>
+    <item android:id="@+id/it_history" android:title="History"></item>
+    
+
+</menu>

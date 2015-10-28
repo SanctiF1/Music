@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_launcher" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tableRow1" >
+
+                <RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:layout_height="wrap_content"
+                        android:text="Happy New Year"
+                        android:textColor="#99ccff"
+                        android:textSize="13dp"     
+                    	android:layout_width="150dp"
+                    	android:singleLine="true"
+                    	android:ellipsize="none"/>
+
+                    <TextView
+                        android:id="@+id/txtArtist"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtName"
+                        android:text="ABBA"
+                        android:textColor="#336666"
+                        android:textSize="10dp"
+                        android:ellipsize="none"
+						android:singleLine="true"  />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+               >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/txtLengh"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="4:01"
+                        android:textColor="#336666"
+                        android:textSize="10dp"
+                        android:ellipsize="none"
+						android:singleLine="true"  />
+
+                    <TextView
+                        android:id="@+id/txtAlbum"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtLengh"
+                        android:text="mp3.zing.vn"
+                        android:textColor="#336666"
+                        android:textSize="10dp"
+                        android:ellipsize="none"
+						 android:singleLine="true" />
+                </RelativeLayout>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/img_icon_play_history" />
+                </TableRow>
+            </TableRow>
+
+        </RelativeLayout>
+    </TableLayout>
+
+</LinearLayout>

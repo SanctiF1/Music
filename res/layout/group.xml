@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" >
+  <ImageView
+      android:id="@+id/ImgGroup"
+      android:layout_width="39dp"
+      android:layout_height="39dp" />
+   <TextView 
+        android:id="@+id/txtGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:textSize="16dp"
+        android:text="Name"
+        android:layout_toRightOf="@+id/ImgGroup"
+        android:layout_alignTop="@+id/ImgGroup" />
+    <TextView
+        android:id="@+id/txtGroupTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/artistinlistsonginplaylist"
+        android:layout_below="@+id/txtGroupName"
+        android:layout_alignLeft="@+id/txtGroupName"
+        android:text="Artist"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/txtGroupLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImgGroup"
+        android:layout_alignParentRight="true"
+        android:text="Duration"
+        android:textColor="@color/artistinlistsonginplaylist"
+        android:textSize="13dp" />
+  
+</RelativeLayout>
